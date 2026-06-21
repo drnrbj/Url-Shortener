@@ -10,21 +10,22 @@ A simple URL shortener built with Laravel. Shorten long URLs, track visits, and 
    cd shortlink
 ```
 
-2. **Install PHP dependencies**
+2. **Install PHP and Node dependencies**
 ```bash
    composer install
+   npm install
 ```
 
 3. **Configure environment**
 
 ```bash
-   cp .env.example .env
+   copy .env.example .env
    php artisan key:generate
 ```
 
 4. **Set up database**
 
-- Update your .env file with database credentials:
+Update your .env file with database credentials:
 
 ```bash
    env
@@ -36,17 +37,22 @@ A simple URL shortener built with Laravel. Shorten long URLs, track visits, and 
    DB_PASSWORD=
 ```
 
-5. **Run migrations**
+1. **Run migrations**
 
 ```bash
    php artisan migrate
 ```
 
-6. **Start the development server**
+6. **Build assets**
+```bash
+   npm run dev
+```
+
+7. **Start the development server**
 ```bash
    php artisan serve
 ```
 
-7. **Visit the application**
+8. **Visit the application**
 
-- Open http://localhost:8000 in your browser.
+   - Open http://localhost:8000 in your browser.

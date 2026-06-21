@@ -21,7 +21,7 @@ class UrlController extends Controller
             $url->save();
         }
         return response()->json([
-            'short_url' => url('/') . '/' . $shortCode
+            'short_url' => url('/') . '/' . $url->short_code
         ]);
     }
 
@@ -41,7 +41,7 @@ class UrlController extends Controller
             abort(404);
         return response()->json([
             'original_url' => $url->original_url,
-            'short_url' => url('/') . '/' .$url->short_code,
+            'short_url' => url('/') . '/' . $url->short_code,
             'visits' => $url->visits,
         ]);
     }
