@@ -1,6 +1,6 @@
-# ShortLink - URL Shortener
+# URL Shortener
 
-A simple  URL shortener built with Laravel. Shorten long URLs, track visits, and share links with ease.
+A simple URL shortener built with Laravel. Shorten long URLs, track visits, and share links with ease.
 
 ## Setup
 
