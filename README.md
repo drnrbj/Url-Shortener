@@ -5,10 +5,10 @@ A simple URL shortener built with Laravel. Shorten long URLs, track visits, and 
 ## Setup
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone <repository-url>
    cd shortlink
-    ```
+```
 
 2. **Install PHP dependencies**
 ```bash
