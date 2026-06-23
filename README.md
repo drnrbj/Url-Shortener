@@ -6,7 +6,7 @@ A simple URL shortener built with Laravel. Shorten long URLs, track visits, and 
 
 1. **Clone the repository**
 ```bash
-   git clone <repository-url>
+   git clone https://github.com/drnrbj/Url-Shortener.git
    cd shortlink
 ```
 
